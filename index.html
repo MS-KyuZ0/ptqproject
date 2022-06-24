@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset=" UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PNTQ PROJECT</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet" />
+
+  <!-- ! TAILWIND CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="https://kit.fontawesome.com/5cb4dc9b7c.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="font-nunito">
+  <!-- NAVBAR -->
+  <nav id="navbar"
+    class="fixed flex flex-wrap w-full py-4 z-50 bg-light sm:bg-transparent transition duration-300 ease-in-out">
+    <div class="container mx-auto">
+      <div id="navItems" class="relative text-center sm:text-left sm:text-white transition duration-300 ease-in-out">
+        <a href="#"
+          class="text-center font-bold font-electrolize tracking-widest left-1/2 -translate-x-1/2 sm:text-3xl">PTQ</a>
+        <ul class="hidden font-bold right-0 top-0 sm:mx-auto sm:absolute sm:flex sm:text-base">
+          <li><a href="#home" class="px-3">Home</a></li>
+          <li><a href="#about" class="px-3">About</a></li>
+          <li><a href="#service" class="px-3">Service</a></li>
+          <li><a href="#contact" class="px-3">Contact</a></li>
+        </ul>
+        <div id="hamburgerButton" class="absolute py-2 px-3 rounded-lg right-3 top-0 -translate-y-2 sm:hidden">
+          <a href="#" class="font-bold text-center"><i class="fa-solid fa-bars"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAVBAR -->
+
+  <!-- MOBILE MENU -->
+  <div id="mobileMenu"
+    class="fixed bg-light w-full text-center mt-14 uppercase z-40 rounded-b-xl -translate-y-96 transition-transform duration-700 md:hidden">
+    <ul>
+      <li class="py-2"><a href="#home">Home</a></li>
+      <li class="py-2"><a href="#about">About</a></li>
+      <li class="py-2"><a href="#service">Service</a></li>
+      <li class="py-2"><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <!-- END MOBILE MENU -->
+
+  <!-- HOME -->
+  <section id="home" class="pt-24 pb-10 bg-gradient-to-br from-secondary to-primary">
+    <div class="container mx-auto">
+      <div class="flex flex-wrap lg:grid lg:grid-cols-2">
+        <div class="w-full px-4 col-start-2 lg:right-0">
+          <img src="./img/Hero-Image.png" alt="PQT PROJECT" class="mx-auto max-w-full" />
+        </div>
+        <div class="w-full px-4 text-center lg:text-left lg:col-start-1 lg:-translate-y-96">
+          <h1 class="font-bold text-3xl mb-2 lg:text-6xl">
+            Welcome to Our Website!
+          </h1>
+          <p class="text-sm mb-10 leading-relaxed lg:text-xl">
+            Here, your <span class="font-bold">Problems</span> will be gone! Try our <span class="font-bold">Best
+              Solution</span> then you can Thank Us
+            Later!
+          </p>
+          <a href="#"
+            class="text-sm font-semibold bg-white text-black py-2 px-5 rounded-full border-white hover:shadow-lg hover:bg-secondary hover:border-[2px] hover:text-light transition duration-300 ease-in-out md:ml-2 md:text-lg md:py-3 md:px-8 lg:text-xl"><i
+              class="fa-solid fa-cart-shopping"></i> Order Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END HOME -->
+
+  <!-- SERVICE -->
+  <section id="service">
+    <div class="container mx-auto">
+      <h3 class="text-2xl text-center pt-10 text-secondary font-bold">Our Services</h3>
+      <div class="flex flex-wrap mt-5">
+        <div
+          class="bg-white rounded-xl mx-auto px-5 py-10 text-center my-5 max-w-[300px] hover:shadow-xl transition duration-500">
+          <img src="./img/service/service1.png" alt="Social Media Specialist" class="max-w-[100px] mx-auto">
+          <h3 class="text-sm mt-5 font-bold">Social Media Specialist</h3>
+          <p class="text-xs mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, optio?</p>
+          <a href="#" class="py-2 px-5 bg-primary rounded-full text-white">Order</a>
+        </div>
+        <div
+          class="bg-white rounded-xl mx-auto px-5 py-10 text-center my-5 max-w-[300px] hover:shadow-xl transition duration-500">
+          <img src="./img/service/service2.png" alt="Software Tester" class="max-w-[120px] mx-auto">
+          <h3 class="text-sm mt-5 font-bold">Software Tester</h3>
+          <p class="text-xs mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, optio?</p>
+          <a href="#" class="py-2 px-5 bg-primary rounded-full text-white">Order</a>
+        </div>
+        <div
+          class="bg-white rounded-xl mx-auto px-5 py-10 text-center my-5 max-w-[300px] hover:shadow-xl transition duration-500">
+          <img src="./img/service/service3.png" alt="Creating WhatsApp Bot" class="max-w-[120px] mx-auto">
+          <h3 class="text-sm mt-5 font-bold">Creating WhatsApp Bot</h3>
+          <p class="text-xs mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, optio?</p>
+          <a href="#" class="py-2 px-5 bg-primary rounded-full text-white">Order</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SERVICE END -->
+
+  <!-- CONTACT -->
+  <section id="contact" class="my-10">
+    <div class="container mx-auto">
+      <div class="sm:flex sm:flex-wrap sm:justify-evenly">
+        <div class="mx-auto sm:w-1/2 sm:mx-0">
+          <h3
+            class="-translate-x-2 text-right text-primary drop-shadow-sm text-2xl font-bold sm:text-left sm:translate-x-0 lg:translate-x-24 sm:text-4xl">
+            Need
+            some details?
+          </h3>
+          <p
+            class="mb-10 -translate-x-2 text-right text-primary drop-shadow-sm text-2xl font-bold sm:text-left sm:translate-x-0 lg:translate-x-24 sm:text-4xl">
+            Contact
+            Us</p>
+          <img src="./img/contact/contact1.png" alt="Contact Us" class=" hidden sm:block sm:w-[450px]">
+        </div>
+        <div class="mx-auto sm:w-1/2">
+          <form action="./index.html" method="get">
+            <label for="firstname" class="text-black ml-2 font-bold">First Name</label>
+            <input id="firstname" type="text" name="First Name"
+              class="w-full rounded-xl text-black border-2 border-black px-4 py-2 mb-5">
+            <label for="lastname" class="text-black ml-2 font-bold">Last Name</label>
+            <input id="lastname" type="text" name="Last Name"
+              class="w-full rounded-xl text-black border-2 border-black px-4 py-2 mb-5">
+            <label for="email" class="text-black ml-2 font-bold">Email</label>
+            <input id="email" type="email" name="email"
+              class="w-full rounded-xl text-black border-2 border-black px-4 py-2 mb-5">
+            <label for="phone" class="text-black ml-2 font-bold">Phone</label>
+            <input id="phone" type="text" name="phone"
+              class="w-full rounded-xl text-black border-2 border-black px-4 py-2 mb-5">
+            <label for="message" class="text-black ml-2 font-bold">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"
+              class="w-full rounded-xl text-black border-2 border-black px-4 py-2 mb-5"></textarea>
+            <button
+              class="w-full bg-primary text-white px-5 py-2 rounded-full hover:bg-gradient-to-br hover:from-secondary hover:to-primary transition duration-500 ease-in-out">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT END -->
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <img src="./img/wave.png" alt="Wave" class="w-full">
+    <div class="bg-light w-full max-w-full">
+      <div class="container mx-auto">
+        <div class="sm:flex sm:flex-wrap sm:justify-between">
+          <div class="w-full text-center sm:w-[300px]">
+            <h3 class="text-6xl font-bold font-electrolize">PTQ</h3>
+            <p class="text-base mt-5 w-[300px] mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quaerat
+              reiciendis nostrum
+              doloremque?</p>
+            <ul class="flex flex-wrap mt-5 justify-center text-lg">
+              <li><a href="#" class="mx-2"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#" class="mx-2"><i class="fa-brands fa-discord"></i></a></li>
+              <li><a href="#" class="mx-2"><i class="fa-brands fa-telegram"></i></a></li>
+              <li><a href="#" class="mx-2"><i class="fa-brands fa-youtube"></i></a></li>
+              <li><a href="#" class="mx-2"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+            <p class="text-lg font-black mt-16">© Copyright PTQ Team 2022</p>
+          </div>
+          <div class="w-full text-center mt-5 sm:w-[450px]">
+            <div class="sm:flex sm:flex-wrap sm:justify-between">
+              <div class="text-center my-5 mx-5 sm:text-left">
+                <h3 class="font-bold">About PTQ</h3>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Carrer</a></li>
+                  <li><a href="#">Support</a></li>
+                </ul>
+              </div>
+              <div class="text-center my-5 mx-5 sm:text-left">
+                <h3 class="font-bold">Other PTQ Projects</h3>
+                <ul>
+                  <li><a href="#">Web Development</a></li>
+                  <li><a href="#">Mobile Development</a></li>
+                  <li><a href="#">IT Consultant</a></li>
+                  <li><a href="#">Secure System</a></li>
+                </ul>
+              </div>
+              <div class="text-center my-5 mx-5 sm:text-left">
+                <h3 class="font-bold">Services</h3>
+                <ul>
+                  <li><a href="#">Social Media Specialist</a></li>
+                  <li><a href="#">Software Secure Testing</a></li>
+                  <li><a href="#">WhatsApp Bot Development</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="hidden w-full text-center mt-10 sm:w-[350px] sm:block">
+            <img src="./img/footer/footer1.png" alt="Footer Image" class="-translate-y-32">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- FOOTER END -->
+
+  <!-- JAVASCRIPTS -->
+  <script src="./js/scripts.js"></script>
+</body>
+
+</html>
